@@ -9,7 +9,7 @@ def is_prime(num):
         return True
 
 
-def do_prime(n):
+def do_primes(n):
     primes = []
     dists = []
     for i in range(1, n, 2):
@@ -34,9 +34,9 @@ def do_prime(n):
     # plt.show()
 
 
-do_prime(100)
-do_prime(1000)
-do_prime(10000)
-# do_prime(100000)
-# do_prime(1000000)
-# do_prime(10000000)
+do_primes(100)
+do_primes(1000)
+do_primes(10000)
+# do_primes(100000)
+# do_primes(1000000)
+# do_primes(10000000)
